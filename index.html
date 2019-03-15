@@ -13,28 +13,28 @@
 	<div class="title" style = "margin-bottom:5%">
 		<h1>MeNa</h1>
 	</div>
-<nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-bottom">
-  <ul class="navbar-nav">
-	<li class="nav-item">
-      <a class="nav-link active" href="index.php">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Pharmacy_reg.html">Pharmacy</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Hospital_reg.html">Doctor</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="signup.php">Patient</a>
-    </li>
-  </ul>
-</nav>
+	<nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-bottom">
+  		<ul class="navbar-nav">
+			<li class="nav-item">
+      			<a class="nav-link active" href="index.html">Home</a>
+   			</li>
+    		<li class="nav-item">
+      			<a class="nav-link" href="pharmacy_reg.html">Pharmacy</a>
+    		</li>
+   			<li class="nav-item">
+      			<a class="nav-link" href="doctor_reg.html">Doctor</a>
+    		</li>
+    		<li class="nav-item">
+      			<a class="nav-link" href="signup.html">Patient</a>
+    		</li>
+  		</ul>
+	</nav>
 <div style = "text-align:center">
 <div class="container" >
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
-				<h3>Sign In</h3>
+				<h3>Log In</h3>
 			</div>
 			<div class="card-body">
 				<form style= "text-align:center" action = "includes/login.inc.php" method ="post">
