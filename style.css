@@ -1,14 +1,24 @@
 .border {
-	border-style: solid;
-	border-width: medium;
-}
-.div[0]{
-	padding: 32px 32px 32px 32px;
+			border-style: solid;
+			border-width: medium;
+		}
+		body, html {
+  			height: 100%;
+  			margin: 0;
+		}
+		.div[0]{
+			padding: 32px 32px 32px 32px;
 
-}
-.title {
-	text-align:center;
-	background-color: #00BFFF;
-	color: white;
-	padding: 10px;
-}
+		}
+		.title {
+			text-align:center;
+			background-color: #00BFFF;
+			color: white;
+			padding: 10px;
+		}
+		.background{
+  			background-image: url('2.png'); height: 100%; 
+  			background-position: center;
+  			background-repeat: no-repeat;
+  			background-size: cover;
+		}
