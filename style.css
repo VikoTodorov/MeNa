@@ -1,0 +1,14 @@
+.border {
+	border-style: solid;
+	border-width: medium;
+}
+.div[0]{
+	padding: 32px 32px 32px 32px;
+
+}
+.title {
+	text-align:center;
+	background-color: #00BFFF;
+	color: white;
+	padding: 10px;
+}
