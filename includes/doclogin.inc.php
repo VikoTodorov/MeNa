@@ -23,6 +23,7 @@
 				else if($pwdCheck == true){
 					session_start();
 					$_SESSION['userId'] = $row['idDoctors'];
+					$_SESSION['role'] = 'doctor';
 					$_SESSION['mail'] = $row['emailDoctors'];
 
 					header("Location: ../receipt.php");
@@ -41,6 +42,6 @@
 		}
 	}
 	else{
-		header("Location: ../doc_signin.php");
+		header("Location: ../index.php");
 		exit();
 	}

@@ -1,5 +1,10 @@
 <?php
 	session_start();
+	if ($_SESSION['role'] != 'doctor')
+	{
+	  header('Location: /index.php?error=cannotaccess');
+	  exit();
+	}
 ?>
 
 <!DOCTYPE html>
@@ -29,20 +34,8 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<span class="title">MeNa</span>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
-			<li class="btn">
-				<a class="link" href="index.php">Login</a>
-			</li>
-			<li class="btn">
-				<a class="link" href="pharmacy_reg.php">Pharmacy</a>
-			</li>
-			<li class="btn">
-				<a class="link" href="doctor_reg.php">Doctor</a>
-			</li>
-			<li class="btn">
-				<a class="link" href="patient_reg.php">Patient</a>
-			</li>
 			<li class="btn">
 				<a class="link" href="/includes/logout.inc.php">Log out</a>
 			</li>

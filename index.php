@@ -16,7 +16,7 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<span class="title">MeNa</span>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
 			<li class="btn">
 				<a class="active" href="index.php">Login</a>
@@ -29,9 +29,6 @@
 			</li>
 			<li class="btn">
 				<a class="link" href="patient_reg.php">Patient</a>
-			</li>
-			<li class="btn">
-				<a class="link" href="/includes/logout.inc.php">Log out</a>
 			</li>
 		</ul>
 	</nav>
@@ -60,14 +57,13 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"></span>
 						</div>
-						<select name="opt-log" form="choose_opt_log" style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control select-focus" placeholder="Choose what are you">
-							<option value="Patient">Patient</option>
-							<option value="Doctor">Doctor</option>
-							<option value="Pharmacy">Pharmacy</option>
+						<select name="opt-log" style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control select-focus">
+							<option value="1">Patient</option>
+							<option value="2">Doctor</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<button type="submit" name="login-submit" class="btn float-right login_btn">Login</button>
+						<button type="submit" name="login-submit" value="submit" class="btn float-right login_btn">Login</button>
 					</div>
 				</form>
 			</div>

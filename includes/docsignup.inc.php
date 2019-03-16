@@ -48,7 +48,7 @@ if(isset($_POST['register-submit-doc'])){
 
           mysqli_stmt_bind_param($stmt, "ssss", $email, $name, $hashedpass, $phone);
           mysqli_stmt_execute($stmt);
-          header("Location: ../doctor_reg.php?register=success");
+          header("Location: ../index.php?register=success");
           exit();
 
         }

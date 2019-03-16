@@ -14,7 +14,7 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<span class="title">MeNa</span>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
 			<li class="btn">
 				<a class="link" href="index.php">Login</a>
@@ -28,9 +28,6 @@
 			<li class="btn">
 				<a class="active" href="patient_reg.php">Patient</a>
 			</li>
-			<li class="btn">
-				<a class="link" href="/includes/logout.inc.php">Log out</a>
-			</li>
 		</ul>
 	</nav>
 <div style = "text-align:center">
@@ -41,39 +38,39 @@
 				<h3>Sign Up</h3>
 			</div>
 			<div class="card-body">
-				<form style= "text-align:center" action = "includes/login.inc.php" method ="post">
+				<form style= "text-align:center" action = "includes/signup.inc.php" method ="post">
             		<div class="input-group form-group">
               			<div class="input-group-prepend">
-                			<span class="input-group-text"></span>
+                			<span class="input-group-text"><i class="fas fa-user"></i></span>
              		 	</div>
               			<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Name" name="uname" required><br>
             		</div>
             		<div class="input-group form-group">
   						<div class="input-group-prepend">
-  							<span class="input-group-text"></span>
+  							<span class="input-group-text"><i class="fas fa-key"></i></span>
   						</div>
   						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter e-mail" name="email" required><br>
   			    	</div>
             		<div class="input-group form-group">
   							<div class="input-group-prepend">
-  								<span class="input-group-text"></span>
+  								<span class="input-group-text"><i class="fas fa-key"></i></span>
   							</div>
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="password" placeholder="Enter Password" name="psw" required><br>
   					</div>
             		<div class="input-group form-group">
   							<div class="input-group-prepend">
-  								<span class="input-group-text"></span>
+  								<span class="input-group-text"><i class="fas fa-key"></i></span>
   							</div>
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="password" placeholder="Repeat password" name="reppsw" required><br>
   					</div>
             		<div class="input-group form-group">
   							<div class="input-group-prepend">
-  								<span class="input-group-text"></span>
+  								<span class="input-group-text"><i class="fas fa-key"></i></span>
   							</div>
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Your PID" name="pid" required><br>
   					</div>
             		<div class="form-group">
-  						<button class="btn floatvane login_btn" type="submit" name="register-submit">Register</button>
+  						<button class="btn float-right login_btn" type="submit" name="register-submit">Register</button>
   					</div>
 				</form>
 			</div>

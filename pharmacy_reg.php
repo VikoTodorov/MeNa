@@ -1,3 +1,8 @@
+<?php
+	session_start();
+
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +16,7 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<span class="title">MeNa</span>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
 			<li class="btn">
 				<a class="link" href="index.php">Login</a>
@@ -25,67 +30,35 @@
 			<li class="btn">
 				<a class="link" href="patient_reg.php">Patient</a>
 			</li>
-			<li class="btn">
-				<a class="link" href="/includes/logout.inc.php">Log out</a>
-			</li>
 		</ul>
 	</nav>
-<div style="text-align:center">
- <div class="container">
+<div style = "text-align:center">
+  <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
-			<div class="card-header">
-				<h3>Registration</h3>
-			</div>
-			<div class="card-body">
-				<form style= "text-align:center" action = "includes/login.inc.php" method ="post">
-            		<div class="input-group form-group">
-              			<div class="input-group-prepend">
-                			<span class="input-group-text"></span>
-             		 	</div>
-              			<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Name" name="uname" required><br>
-            		</div>
-            		<div class="input-group form-group">
-  						<div class="input-group-prepend">
-  							<span class="input-group-text"></span>
-  						</div>
-  						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter e-mail" name="email" required><br>
-  			    	</div>
-            		<div class="input-group form-group">
-  							<div class="input-group-prepend">
-  								<span class="input-group-text"></span>
-  							</div>
-  							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="password" placeholder="Enter Password" name="psw" required><br>
-  					</div>
-            		<div class="input-group form-group">
-  							<div class="input-group-prepend">
-  								<span class="input-group-text"></span>
-  							</div>
-  							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="password" placeholder="Repeat password" name="reppsw" required><br>
-  					</div>
-            		<div class="input-group form-group">
-  							<div class="input-group-prepend">
-  								<span class="input-group-text"></span>
-  							</div>
-  							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Special Code" name="SC" required><br>
-  					</div>
-			        <div class="input-group form-group">
-  						<div class="input-group-prepend">
-  							<span class="input-group-text"></span>
-  						</div>
- 						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter address" name="address" required><br>
-  					</div>
-			        <div class="input-group form-group">
-  						<div class="input-group-prepend">
-  							<span class="input-group-text"></span>
-  						</div>
- 						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter telephone" name="tel" required><br>
-  					</div>
-            		<div class="form-group">
-  						<button class="btn float-right login_btn" type="submit" name="register-submit">Register</button>
-  					</div>
-				</form>
-			</div>
+      <form style= "text-align:center" action = "pharmacy_reg.php" method ="post">
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+          </div>
+          <input type="text" name="pid" style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" placeholder="PID:">
+        </div>
+        <div class="form-group">
+          <button type="submit" name="pid-submit" class="btn login_btn">Submit</button>
+        </div>
+      </form>
+      <?php
+        if(isset($_POST['pid-submit'])){
+          require "./includes/pharmacy.inc.php";
+          $query = mysqli_query($con, "SELECT * FROM receipts WHERE patientID = $patientid ORDER BY idReceipts DESC LIMIT 1") or die(mysqli_error($con));
+          while ($row = mysqli_fetch_array($query)){
+            echo "
+            <p>{$row['receiptContent']}</p>
+            <p>Valid until: {$row['dateValidation']}</p>
+            \n";
+          }
+        }
+      ?>
 		</div>
 	</div>
 </div>
