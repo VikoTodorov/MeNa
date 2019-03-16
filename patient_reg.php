@@ -14,18 +14,18 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php" class="title"><MeNa</a>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="index.php">Login</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="pharmacy_reg.php">Pharmacy</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="doctor_reg.php">Doctor</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="active" href="patient_reg.php">Patient</a>
 			</li>
 		</ul>
@@ -70,7 +70,7 @@
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Your PID" name="pid" required><br>
   					</div>
             		<div class="form-group">
-  						<button class="floatvane login_btn" type="submit" name="register-submit">Register</button>
+  						<button class="btn floatvane login_btn" type="submit" name="register-submit">Register</button>
   					</div>
 				</form>
 			</div>

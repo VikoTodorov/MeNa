@@ -21,18 +21,18 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php" class="title"><MeNa</a>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="index.php">Login</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="active" href="pharmacy_reg.php">Pharmacy</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="doctor_reg.php">Doctor</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="patient_reg.php">Patient</a>
 			</li>
 		</ul>

@@ -16,18 +16,18 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php" class="title"><MeNa</a>
+		<a href="index.php" class="title"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
-			<li class="btn">
+			<li class="link-btn">
 				<a class="active" href="index.php">Login</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="pharmacy_reg.php">Pharmacy</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="doctor_reg.php">Doctor</a>
 			</li>
-			<li class="btn">
+			<li class="link-btn">
 				<a class="link" href="patient_reg.php">Patient</a>
 			</li>
 		</ul>
@@ -63,7 +63,7 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<button type="submit" name="login-submit" value="submit" class="floatvane login_btn">Login</button>
+						<button type="submit" name="login-submit" value="submit" class="btn floatvane login_btn">Login</button>
 					</div>
 				</form>
 			</div>

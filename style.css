@@ -25,7 +25,7 @@ body, html {/*za snimkata na backgrounda*/
 a.title:hover{
 	color: #ebebe0;
 }
-.btn{/*link butonite*/
+.link-btn{/*link butonite*/
 	padding-top: 2vh;
 	display:inline-block;
 }
@@ -99,6 +99,7 @@ input:focus{
 	color: white;
 	background-color: #28A745;
 	width: 100px;
+	padding-top: 1vh;
 	
 }
 
