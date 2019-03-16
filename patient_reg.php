@@ -73,7 +73,7 @@
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Your PID" name="pid" required><br>
   					</div>
             		<div class="form-group">
-  						<button class="btn float-right login_btn" type="submit" name="register-submit">Register</button>
+  						<button class="btn floatvane login_btn" type="submit" name="register-submit">Register</button>
   					</div>
 				</form>
 			</div>

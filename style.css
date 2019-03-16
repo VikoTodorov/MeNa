@@ -1,35 +1,34 @@
-.border {
-			border-style: solid;
-			border-width: medium;
-		}
-body, html {
+body, html {/*za snimkata na backgrounda*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
 	font-family: 'Numans', sans-serif;
 	margin: 0;
 }
-.div{
-	padding: 32px 32px 32px 32px;
-}
-.my_navbar{
+/*.div{
+	padding: 32px 32px 32px 32px; ne se znae zashto sme go polzvali
+}*/
+.my_navbar{/*za da go mrydnem v dqsno*/
 	float: right;
-
+	
 }
-.top{
+.top{/*zaglavnata liniq*/
 	background-color: #185371;
 	margin-bottom: 5vh;
 }
-.title {
+.title {/*MeNa-ta*/
 	color: white;
 	font-size: 40px;
 	text-align: center;
 }
-.btn{
+.btn{/*link butonite*/
 	padding-top: 2vh;
 	display:inline-block;
 }
-.link{
+.floatvane{/*float-right inache*/
+	float: right;
+}
+.link{/*linkchetata gore*/
 	font-size: 18px;
 	vertical-align: center;
 }
@@ -41,11 +40,11 @@ a.link:hover, a.link:active{
 	color: #ebebe0;
 	text-decoration: none;
 }
-a.active ,a.active:hover, a.active {
+a.active{
 	color: #28A745;
+	/*color: white; jalko Viko poveche go kefeshe :(
+	Pozdravi: Viko*/
 	text-decoration: none;
-}
-.active{
 	font-size: 18px;
 }
 .background{
@@ -55,15 +54,15 @@ a.active ,a.active:hover, a.active {
 	background-size: cover;
 }
 /*.container{
-	max-height: 100%; NE BACKA
+	max-height: 100%; NE BACKA i ne se znae za kakvo sme go slagali
 	align-content: center;
 }*/
 
-.card{
+.card{/*tova e za containera na login formata*/
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 400px;
-	max-height: 60%;
+	max-height: 60%;/*za da se pobira register formata*/
 	background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -74,13 +73,13 @@ a.active ,a.active:hover, a.active {
 
 
 
-.input-group-prepend span{
+.input-group-prepend span{/*cvetnickoto otstrani na logina i registera*/
 	width: 50px;
 	background-color: #28A745;
 	color: black;
 	border:0 !important;
 }
-
+/*da se mahne gadnata sinq liniq okolo inpita kato e cyknat*/
 input:focus{
 	outline: 0 0 0 0  !important;
 	box-shadow: 0 0 0 0 !important;
@@ -92,20 +91,8 @@ input:focus{
 
 }
 
-.remember{
+.login_btn{/*cvqt butonche*/
 	color: white;
-}
-
-.remember input
-{
-	width: 20px;
-	height: 20px;
-	margin-left: 15px;
-	margin-right: 5px;
-}
-
-.login_btn{
-	color: black;
 	background-color: #28A745;
 	width: 100px;
 }
@@ -113,12 +100,4 @@ input:focus{
 .login_btn:hover{
 	color: black;
 	background-color: white;
-}
-
-.links{
-	color: white;
-}
-
-.links a{
-	margin-left: 4px;
 }
