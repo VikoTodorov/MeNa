@@ -13,10 +13,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		p{
+			color: white;		
+		}	
+	</style>
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php"><span class="title">MeNa</span></a>
+		<a href="index.php" class="title"><MeNa</a>
 		<ul class="my_navbar">
 			<li class="btn">
 				<a class="link" href="index.php">Login</a>
@@ -39,7 +44,7 @@
       <form style= "text-align:center" action = "pharmacy_reg.php" method ="post">
         <div class="input-group form-group">
           <div class="input-group-prepend">
-            <span class="input-group-text"><i class="fas fa-user"></i></span>
+            <span class="input-group-text"></span>
           </div>
           <input type="text" name="pid" style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" placeholder="PID:">
         </div>

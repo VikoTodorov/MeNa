@@ -16,9 +16,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript">
-
-	</script>
+	<script type="text/javascript"></script>
+	<style>
+		h4{
+			color: white;	
+		}	
+	</style>
 </head>
 <body class="background">
 	<?php
@@ -45,8 +48,8 @@
 			$query = mysqli_query($conn, "SELECT * FROM receipts WHERE patientID=$patientid") or die(mysqli_error($conn));
 			while ($row = mysqli_fetch_array($query)){
 				echo "
-				<h4 style = 'color: white'>{$row['receiptContent']}</h4>
-				<h4 style = 'color: white'>Valid until: {$row['dateValidation']}</h4>
+				<h4>{$row['receiptContent']}</h4>
+				<h4>Valid until: {$row['dateValidation']}</h4>
 				\n
 				";
 			}

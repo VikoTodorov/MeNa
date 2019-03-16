@@ -34,7 +34,7 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php"><span class="title">MeNa</span></a>
+		<a href="index.php" class="title"><MeNa</a>
 		<ul class="my_navbar">
 			<li class="btn">
 				<a class="link" href="/includes/logout.inc.php">Log out</a>

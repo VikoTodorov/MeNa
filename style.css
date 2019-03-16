@@ -20,6 +20,10 @@ body, html {/*za snimkata na backgrounda*/
 	color: white;
 	font-size: 40px;
 	text-align: center;
+	text-decoration: none;
+}
+a.title:hover{
+	color: #ebebe0;
 }
 .btn{/*link butonite*/
 	padding-top: 2vh;
@@ -95,6 +99,7 @@ input:focus{
 	color: white;
 	background-color: #28A745;
 	width: 100px;
+	
 }
 
 .login_btn:hover{

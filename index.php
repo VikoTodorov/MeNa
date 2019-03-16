@@ -16,7 +16,7 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php"><span class="title">MeNa</span></a>
+		<a href="index.php" class="title"><MeNa</a>
 		<ul class="my_navbar">
 			<li class="btn">
 				<a class="active" href="index.php">Login</a>
@@ -51,7 +51,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"></span>
 						</div>
-						<input type="password" name="psw"style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" placeholder="password">
+						<input type="password" name="psw"style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" placeholder="Password">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -63,7 +63,7 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<button type="submit" name="login-submit" value="submit" class="btn float-right login_btn">Login</button>
+						<button type="submit" name="login-submit" value="submit" class="floatvane login_btn">Login</button>
 					</div>
 				</form>
 			</div>
