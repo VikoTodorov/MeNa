@@ -17,7 +17,7 @@ body, html {
 	
 }
 .top{
-	background-color: #28A745;
+	background-color: #185371;
 	margin-bottom: 5vh;
 }
 .title {
@@ -42,7 +42,7 @@ a.link:hover, a.link:active{
 	text-decoration: none;
 }
 a.active ,a.active:hover, a.active {
-	color: white;
+	color: #28A745;
 	text-decoration: none;
 }
 .active{
@@ -76,7 +76,7 @@ a.active ,a.active:hover, a.active {
 
 .input-group-prepend span{
 	width: 50px;
-	background-color: #FFC312;
+	background-color: #28A745;
 	color: black;
 	border:0 !important;
 }
@@ -101,7 +101,7 @@ input:focus{
 
 .login_btn{
 	color: black;
-	background-color: #FFC312;
+	background-color: #28A745;
 	width: 100px;
 }
 
