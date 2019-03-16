@@ -35,6 +35,7 @@ a.title:hover{
 .link{/*linkchetata gore*/
 	font-size: 18px;
 	vertical-align: center;
+	text-decoration: none;
 }
 a.link:link, a.link:visited{
 	color: #cccccc;

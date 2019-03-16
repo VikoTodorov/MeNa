@@ -16,7 +16,7 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php" class="title"><span class="title">MeNa</span></a>
+		<a href="index.php"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
 			<li class="link-btn">
 				<a class="active" href="index.php">Login</a>
