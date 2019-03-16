@@ -12,12 +12,41 @@ body, html {
 .div{
 	padding: 32px 32px 32px 32px;
 }
+.my_navbar{
+	float: right;
+	
+}
+.top{
+	background-color: #28A745;
+	margin-bottom: 5vh;
+}
 .title {
-	text-align:center;
-	background-color: #00BFFF;
 	color: white;
-	padding: 10px;
-	margin-bottom:5%
+	font-size: 40px;
+	text-align: center;
+}
+.btn{
+	padding-top: 2vh;
+	display:inline-block;
+}
+.link{
+	font-size: 18px;
+	vertical-align: center;
+}
+a.link:link, a.link:visited{
+	color: #cccccc;
+	text-decoration: none;
+}
+a.link:hover, a.link:active{
+	color: #ebebe0;
+	text-decoration: none;
+}
+a.active ,a.active:hover, a.active {
+	color: white;
+	text-decoration: none;
+}
+.active{
+	font-size: 18px;
 }
 .background{
 	background-image: url('2.png'); height: 100%;
@@ -25,16 +54,16 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.container{
-	height: 100%;
+/*.container{
+	max-height: 100%; NE BACKA
 	align-content: center;
-}
+}*/
 
 .card{
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 400px;
-	height: 50%;
+	max-height: 60%;
 	background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -42,23 +71,8 @@ body, html {
 	color: white;
 }
 
-.social_icon span{
-	font-size: 60px;
-	margin-left: 10px;
-	color: #FFC312;
-}
-
-.social_icon span:hover{
-	color: white;
-	cursor: pointer;
-}
 
 
-.social_icon{
-	position: absolute;
-	right: 20px;
-	top: -45px;
-}
 
 .input-group-prepend span{
 	width: 50px;
