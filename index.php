@@ -46,19 +46,19 @@
 				<form style= "text-align:center" action = "includes/login.inc.php" method ="post">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-user"></i></span>
+							<span class="input-group-text"></span>
 						</div>
 						<input type="text" name="email" style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" placeholder="E-mail">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"></span>
 						</div>
 						<input type="password" name="psw"style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" placeholder="password">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"></span>
 						</div>
 						<select name="opt-log" form="choose_opt_log" style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control select-focus" placeholder="Choose what are you">
 							<option value="Patient">Patient</option>

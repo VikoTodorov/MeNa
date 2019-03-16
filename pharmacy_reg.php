@@ -41,43 +41,43 @@
 				<form style= "text-align:center" action = "includes/login.inc.php" method ="post">
             		<div class="input-group form-group">
               			<div class="input-group-prepend">
-                			<span class="input-group-text"><i class="fas fa-user"></i></span>
+                			<span class="input-group-text"></span>
              		 	</div>
               			<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Name" name="uname" required><br>
             		</div>
             		<div class="input-group form-group">
   						<div class="input-group-prepend">
-  							<span class="input-group-text"><i class="fas fa-key"></i></span>
+  							<span class="input-group-text"></span>
   						</div>
   						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter e-mail" name="email" required><br>
   			    	</div>
             		<div class="input-group form-group">
   							<div class="input-group-prepend">
-  								<span class="input-group-text"><i class="fas fa-key"></i></span>
+  								<span class="input-group-text"></span>
   							</div>
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="password" placeholder="Enter Password" name="psw" required><br>
   					</div>
             		<div class="input-group form-group">
   							<div class="input-group-prepend">
-  								<span class="input-group-text"><i class="fas fa-key"></i></span>
+  								<span class="input-group-text"></span>
   							</div>
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="password" placeholder="Repeat password" name="reppsw" required><br>
   					</div>
             		<div class="input-group form-group">
   							<div class="input-group-prepend">
-  								<span class="input-group-text"><i class="fas fa-key"></i></span>
+  								<span class="input-group-text"></span>
   							</div>
   							<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter Special Code" name="SC" required><br>
   					</div>
 			        <div class="input-group form-group">
   						<div class="input-group-prepend">
-  							<span class="input-group-text"><i class="fas fa-key"></i></span>
+  							<span class="input-group-text"></span>
   						</div>
  						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter address" name="address" required><br>
   					</div>
 			        <div class="input-group form-group">
   						<div class="input-group-prepend">
-  							<span class="input-group-text"><i class="fas fa-key"></i></span>
+  							<span class="input-group-text"></span>
   						</div>
  						<input style="border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;" class="form-control" type="text" placeholder="Enter telephone" name="tel" required><br>
   					</div>
