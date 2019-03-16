@@ -14,7 +14,7 @@ body, html {
 }
 .my_navbar{
 	float: right;
-	
+
 }
 .top{
 	background-color: #185371;
@@ -82,6 +82,11 @@ a.active ,a.active:hover, a.active {
 }
 
 input:focus{
+	outline: 0 0 0 0  !important;
+	box-shadow: 0 0 0 0 !important;
+
+}
+.select-focus{
 	outline: 0 0 0 0  !important;
 	box-shadow: 0 0 0 0 !important;
 
