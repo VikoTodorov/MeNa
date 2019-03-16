@@ -14,18 +14,18 @@
 </head>
 <body class="background">
 	<nav class="top">
-		<a href="index.php"><span class="title">MeNa</span></a>
+		<a href="index.php" class="link"><span class="title">MeNa</span></a>
 		<ul class="my_navbar">
-			<li class="link-btn">
+			<li class="btn">
 				<a class="link" href="index.php">Login</a>
 			</li>
-			<li class="link-btn">
+			<li class="btn">
 				<a class="link" href="pharmacy_reg.php">Pharmacy</a>
 			</li>
-			<li class="link-btn">
+			<li class="btn">
 				<a class="link" href="doctor_reg.php">Doctor</a>
 			</li>
-			<li class="link-btn">
+			<li class="btn">
 				<a class="active" href="patient_reg.php">Patient</a>
 			</li>
 		</ul>
